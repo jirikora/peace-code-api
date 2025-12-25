@@ -1,0 +1,44 @@
+{
+  "name": "@jirikora/peace-code-api",
+  "version": "0.0.1",
+  "description": "Peace's code API",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format:fix": "prettier --write src",
+    "format:check": "prettier --check src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jirikora/peace-code-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jirikora/peace-code-api/issues"
+  },
+  "homepage": "https://github.com/jirikora/peace-code-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/jest": "^30.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.50.1",
+    "vite": "^7.3.0",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "dependencies": {
+    "@jirikora/peace-code-api": "file:jirikora/jirikora-peace-code-api-0.0.1.tgz"
+  }
+}

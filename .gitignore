@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Build artifacts
+dist/
+
+# Environment variables
+.env.local
+.env.*.local
+.vite-inspect
+.vite/ # Optional, generally inside node_modules/
